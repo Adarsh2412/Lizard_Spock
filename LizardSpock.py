@@ -5,7 +5,7 @@ def printMessage():
     print("2. Learn more about the Game\n\n")
     print("3. Exit\n\n")
 def winner(player,computer):
-    if(player=='Rock'):
+    if(player=='Rock' or 'rock'):
         if(computer=='Rock'):
             print("Computer chose Rock, Rocks collide and then fall and hence, it is a tie!\n\n")
             return 0
@@ -21,7 +21,7 @@ def winner(player,computer):
         else:
             print("Computer chose Scissors, you broke it with your Rock. You win!\n\n")
             return 1
-    elif(player== 'Paper'):
+    elif(player== 'Paper' or 'paper'):
         if(computer== 'Rock'):
             print("Computer chose Rock, Paper covers Rock, you win!\n\n")
             return 1
@@ -37,7 +37,7 @@ def winner(player,computer):
         else:
             print("Computer chose Scissors, your Paper is now in shreds. Computer wins!\n\n")
             return -1
-    elif(player== 'Scissors'):
+    elif(player== 'Scissors' or 'scissors'):
         if(computer == 'Rock'):
             print("Computer chose Rock, Rock crushed Scissors. Computer wins!\n\n")
             return -1
@@ -53,7 +53,7 @@ def winner(player,computer):
         else:
             print("Computer chose Scissors, you scissors, scissored. It's a tie\n\n")
             return 0
-    elif(player== 'Lizard'):
+    elif(player== 'Lizard' or 'lizard'):
         if(computer == 'Rock'):
             print("Computer chose Rock, Rock crushed Lizard. You now have a dead Lizard and  defeat against a robot. Computer wins!\n\n")
             return -1
@@ -69,7 +69,7 @@ def winner(player,computer):
         else:
             print("Computer chose Scissors, Your Lizard just got decapitated. Computer wins.\n\n")
             return -1
-    elif(player== 'Spock'):
+    elif(player== 'Spock' or 'spock'):
         if(computer == 'Rock'):
             print("Computer chose Rock, your Spock vaporised the Rock. You Win!\n\n")
             return 1
