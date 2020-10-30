@@ -16,7 +16,7 @@ def winner(player,computer):
             print("Computer summoned Lizard, Rock crushes Lizard. 1 point for you!\n\n")
             return 1
         elif(computer=='Spock'):
-            print("Oops! Computer summoned Spock and Spock vaporised the Rock, Computer gets +1!\n\n")
+            print("Oo! Computer summoned Spock and Spock vaporised the Rock, Computer gets +1!\n\n")
             return -1
         else:
             print("Computer chose Scissors, you broke it with your Rock. You win!\n\n")
